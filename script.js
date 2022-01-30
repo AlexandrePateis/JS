@@ -1,9 +1,22 @@
-function somar(){
-    var n1 = document.querySelector('input#inp1')
-    var n2 = document.querySelector('input#inp2')
-    var num1 = Number(n1.value)
-    var num2 = Number(n2.value)
-    var s = num1 + num2
-    var result = document.querySelector('div#res')
-    result.innerHTML = `A soma de ${num1} e ${num2} sera: <strong>${s}</strong>`
+function carregar(){
+    var msg = document.querySelector('div#msg')
+    var img = document.querySelector('img#imagem')
+    var date = new Date()
+    var hora = date.getHours()
+    msg.innerHTML = `Agora sao ${hora} horas`
+    if (hora >= 0 && hora < 12){
+        msg.innerHTML = 'Good Morning !!'
+        img.src = 'manha.jpg'
+        document.body.style.background = '#b5b6b1'
+    }else if (hora >=12 && hora <= 18){
+        //Boa tarde
+        msg.innerHTML = 'Good Afternoon !!'
+        img.src = 'tarde.jpg'
+        document.body.style.background = '#191627'
+    }else{
+        //Boa noite 
+        msg.innerHTML = 'Good Night !!'
+        img.src = 'noite.jpg'
+        document.body.style.background = '#653f74'
+    }
 }

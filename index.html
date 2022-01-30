@@ -7,13 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <input type="number" name="inp1" id="inp1">
-    <input type="number" name="inp2" id="inp2">
-    <input type="button" value="somar" onclick="somar()">
-    <div id="res">
-        Resultado....
-    </div>
+<body onload="carregar()">
+    <header>
+        <h1>Day Hour</h1>
+    </header>
+    <section>
+        <div id="msg">
+        </div>
+        <div id="img">
+            <img id="imagem" style="border-radius: 50%" width="250" height="250" src="/manha.jpg" alt="Foto do Horário">
+        </div>
+    </section>
+    <footer>
+        <p>Alexandre Pateis</p>
+    </footer>
     <script src="./script.js"></script>
 </body>
 </html>

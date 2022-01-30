@@ -1,12 +1,37 @@
-#area{
-    font: normal 20pt Arial;
-    background:green;
-    color:white;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    line-height:200px;
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    background: rgb(0, 209, 224);
 }
-p{
-    margin:0;
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    margin-top: 100px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+
+#imagem{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0.99);
+    margin: auto;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+footer{
+    padding: 40px;
 }
