@@ -2,11 +2,12 @@ body{
     margin: 0;
     font-family: sans-serif;
     padding: 0;
-    background: rgb(0, 209, 224);
+    background: rgb(13, 0, 19);
 }
 header{
     color: white;
     text-align: center;
+    text-shadow: black 1px 3px 3px;
 }
 section{
     background: white;
@@ -34,4 +35,5 @@ div{
 }
 footer{
     padding: 40px;
+    text-shadow: black 1px 2px 3px;
 }
