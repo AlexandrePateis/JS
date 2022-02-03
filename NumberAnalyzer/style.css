@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    background: rgb(14, 29, 59);
+}
+header{
+    color: white;
+    text-align: center;
+    text-shadow: black 1px 3px 3px;
+}
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    margin-top: 100px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+
+#imagem{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0.99);
+    margin: auto;
+}
+
+
+footer{
+    padding: 40px;
+    text-shadow: black 1px 2px 3px;
+}
