@@ -53,6 +53,4 @@ function End () {
         res.innerHTML += `The average of the values ​​was ${soma/lista_num.length}`
         
     }
-    
-
 }
