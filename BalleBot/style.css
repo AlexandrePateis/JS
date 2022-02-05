@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+}
+body {
+    background: linear-gradient(68.15deg, #210636 16%, #4e1407 85.61%);
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    margin: 12px;
+}
+.cabecalho-menu-item{
+    color: white;
+    margin-right: 28px;
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+}
+.logo-cabecalho{
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+}
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom:48px;
+}
+.conteudo-principal{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-escrito{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 79px;
+    color: #FFF2E7;
+}
+.conteudo-titulo{
+    font-size: 64px;
+}
+.conteudo-subtitulo{
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFF2E7;
+    line-height: 39px;
+}
+.conteudo-botao{
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 18px;
+    transition: linear 0.4s;
+}
+.conteudo-botao:hover{
+    background: #c0ac9c;
+}
+.conteudo-p-imagem{
+    height: 430px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    gap: 2px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding:12px;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+}
+.conteudo-secundario-paragrafo{
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
+footer{
+    border-top: 1px solid white;
+    padding:18px;
+}
+.footer-img{
+    height:48px;
+    display: block;
+    margin: 0 auto;
+}
