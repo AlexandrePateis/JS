@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+body {
+    background: linear-gradient(99.0deg, #dfe9e4 , #fcfcfc );
+}
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+section{
+    background: rgb(171, 255, 199);
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+#rs{
+    padding: 10px;
+}
+#cont input{
+    border: none;
+    padding:12px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+
+#imagem{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0.99);
+    margin: auto;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+footer{
+    padding: 40px;
+    color:black
+}
+#cont{
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+h1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#btn{
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: linear 0.3s;
+}
+#btn:hover{
+    background:wheat
+}
