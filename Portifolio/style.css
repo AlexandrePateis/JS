@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-color: black;
+    color:white;
+    margin:0
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    text-decoration: none;
+}
+li{
+    margin-top: 15px;
+    margin-bottom:50px;  
+    text-align: right;
+    margin-right:75px;
+    transition: linear 0.5s;
+    cursor: pointer;
+}
+a{
+    padding:10px;
+    border: solid 1px white;
+    transition: 0.2s linear;
+    color:white;
+    font-size: 19px;
+}
+a:hover{
+    background:white;
+    color:black;
+    border-radius: 10px;
+}
+li:hover{
+    background:white;
+    color:black;
+    border-radius: 10px;
+}
+.sec1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec1 h1{
+    font-size: 65px;
+}
+.subtitulo{
+    font-weight: normal;
+    font-size:40px
+}
+.btn{
+    border:solid white 1px;
+    padding: 10px;
+    transition:linear 0.5s;
+}
+.btn:hover{
+    background:white;
+    color:black;
+    border-radius: 10px;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.main p{
+    width: 400px;
+}
+.projtos{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.subtitulo2{
+    text-align: center;
+    font-size:53px
+}
+footer{
+    background:white;
+    text-align: center;
+    color:black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+}
