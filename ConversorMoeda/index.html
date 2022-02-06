@@ -11,7 +11,7 @@
     <header>
         <h1></h1>
     </header>
-    <section>
+    <section id="content">
         <h1>Conversor de moeda</h1>
         <div id="cont">
             <label for="valorEmReal" id="rs">R$:</label>
@@ -29,6 +29,7 @@
                 onChange='ativarBotao()'
                 autofocus
                 required
+                placeholder="Digite o valor"
             />
         </div>
         <div class="moedas">
@@ -41,8 +42,13 @@
         <div id="res">
 
         </div>
+        <div class="modoclaro-escuro">
+            <input type="radio" name="dark-clear" id="dc" checked> <label for="dc">Modo Escuro</label>
+            <input type="radio" name="dark-clear" id="cd"> <label for="cd">Modo Claro</label>
+        </div>
+        <input type="button" value="Mudar" onClick='MudaCor()' id="btn1">
     </section>
-    <footer>
+    <footer id="footer1">
         <p><strong>&copy; Alexandre Pateis</strong> </p>
     </footer>
     <script src="./script.js"></script>

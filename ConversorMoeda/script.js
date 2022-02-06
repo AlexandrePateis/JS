@@ -22,3 +22,15 @@ function Limpar(){
     real.value = ''
     rees.innerHTML = ''
 }
+
+function MudaCor(){
+    let cor = document.getElementsByName('dark-clear')
+    let foot = document.getElementById('footer1')
+    if (cor[1].checked){
+        document.body.style.background = 'white'
+        foot.style.color= 'black'
+    }else{
+        document.body.style.background = 'black'
+        foot.style.color= 'white'
+    }
+}

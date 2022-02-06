@@ -2,10 +2,10 @@
 *{
     font-family:sans-serif;
     text-decoration: none;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 body {
-    background: linear-gradient(99.0deg, #dfe9e4 , #fcfcfc );
+    background: linear-gradient(99.0deg, #000000 , #000000 );
 }
 header{
     color: rgb(0, 0, 0);
@@ -13,20 +13,20 @@ header{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 section{
-    background: rgb(171, 255, 199);
+    background: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 15px;
     width: 500px;
     height: 400px;
     margin:auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.1);
     margin-top: 100px;
 }
 #rs{
     padding: 10px;
 }
 #cont input{
-    border: none;
+ 
     padding:12px;
     border-radius: 20px;
     font-size: 23px;
@@ -48,7 +48,7 @@ div{
 }
 footer{
     padding: 40px;
-    color:black
+    color:white;
 }
 #cont{
     text-align: center;
@@ -64,13 +64,34 @@ h1{
 }
 #btn{
     margin-top: 50px;
-    padding: 10px;
-    border: none;
+    padding: 15px;
+    border: solid 0.2px;
     cursor: pointer;
     border-radius: 30px;
     font-size: 18px;
     transition: linear 0.3s;
 }
+#btn1{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border: solid 0.2px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 13px;
+    transition: linear 0.3s;
+}
+#btn1:hover{
+    background:rgb(3, 3, 3);
+    color:white;
+}
 #btn:hover{
-    background:wheat
+    background:rgb(3, 3, 3);
+    color:white;
+}
+input[id="valorEmReal"]{
+    border:solid 1px;
+}
+.modoclaro-escuro{
+    font-size:15px;
 }
