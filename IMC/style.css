@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 90px;
+}
+ul{
+    list-style: none;
+}
+body{
+    background:black;
+}
+h1{
+    text-align: center;
+}
+.lead{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.container{
+    width: 50%;
+    height: 800px;
+    border: solid 1px black;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    background:white;
+}
+#formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    margin: 40px;
+    padding:30px;
+    gap: 15px;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    border:solid 1px black;
+    padding:8px;
+    width: 40%;
+}
+input:focus{
+    outline: 1px solid black;
+}
+.btn{
+    padding:12px;
+    border-radius: 23px;
+    border:solid 1px black;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color:white;
+    transition: linear 0.4s;
+    width: 30%;
+    font-size: 17px;
+}
+
+.btn:hover{
+    color:white;
+    background: black;
+}
