@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 90px;
+}
+ul{
+    list-style: none;
+}
+body{
+    background:rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+}
+p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:50px;
+}
+.container{
+    width: 35%;
+    height: 700px;
+    border: solid 1px black;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    background:white;
+}
+#formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    margin: 40px;
+    padding:30px;
+    gap: 15px;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    border:solid 1px black;
+    padding:8px;
+    width: 40%;
+}
+input:focus{
+    outline: 1px solid black;
+}
+.btn{
+    padding:12px;
+    border-radius: 23px;
+    border:solid 1px black;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color:white;
+    transition: linear 0.4s;
+    width: 30%;
+    font-size: 17px;
+}
+
+.btn:hover{
+    color:white;
+    background: black;
+}
+.resposta{
+    background-color: rgb(159, 235, 159);
+    padding:10px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 15px;
+    transition: linear 0.4s;
+}
+
+.resposta:hover{
+    background-color: rgb(54, 248, 54);
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    gap:20px;
+}
+#timer{
+    font-size: 34px;
+}
+.iniciar, .pausar, .zerar {
+    padding:8px;
+    border-radius: 23px;
+    border:solid 1px black;
+    cursor: pointer;
+    background-color:white;
+    transition: linear 0.4s;
+    width: 30%;
+    font-size: 13px;
+}
+.pausado{
+    color: red;
+}
+.pausar{
+    transition: linear 0.4s;
+}
+.pausar:hover{
+    background-color:rgb(250, 114, 114)
+}
+
+.iniciar{
+    transition: linear 0.4s;
+}
+.iniciar:hover{
+    background-color:rgb(101, 255, 87)
+}
+
+.zerar{
+    transition: linear 0.4s;
+}
+.zerar:hover{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
