@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 90px;
+}
+ul{
+    list-style:circle;
+    font-size:20px;
+    font-style: italic;
+}
+body{
+    background:rgb(2, 40, 146);
+}
+h1{
+    text-align: center;
+}
+p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top:50px;
+}
+.container{
+    width: 50%;
+    height: 600px;
+    border: solid 1px black;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    background:white;
+}
+#formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    margin: 40px;
+    padding:30px;
+    gap: 15px;
+}
+
+#input_tarefa{
+    border-radius: 10px;
+    border: none;
+    border:solid 1px black;
+    padding:2px;
+    width: 45%;
+    height: 25px;
+}
+#input_tarefa:focus{
+    outline: 1px solid black;
+}
+#btn{
+    padding:7px;
+    border-radius: 23px;
+    border:solid 1px black;
+    cursor: pointer;
+    background-color:white;
+    transition: linear 0.4s;
+    font-size: 17px;
+}
+
+#btn:hover{
+    color:white;
+    background: black;
+}
+.lead_1{
+    display: flex;
+    align-items: center;
+    gap: 50px
+}
+.apagar{
+    padding:7px;
+    border-radius: 23px;
+    border:solid 1px black;
+    cursor: pointer;
+    background-color:white;
+    transition: linear 0.4s;
+    font-size: 12px;
+}
+
+.apagar:hover{
+    color:white;
+    background: rgb(219, 10, 10);
