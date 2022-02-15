@@ -44,6 +44,7 @@ function criaTarefa(texto){
     limpaInput()
     criaBotaoApagar(li)
     criaBotaoConcluido(li)
+    salvarTarefa()
 }
 
 btnEnviar.addEventListener('click', function() {
@@ -57,6 +58,7 @@ document.addEventListener('click', function(e){
     
     if(el.classList.contains('apagar')){
         el.parentElement.remove();
+        salvarTarefa()
     }
 })
 
@@ -69,3 +71,27 @@ document.addEventListener('click', function(e){
         el.setAttribute('title', 'Concluido')
     }
 })
+
+function salvarTarefa(){
+    const liTarefas = tarefas.querySelectorAll('li')
+    const listaDeTarefas = [];
+
+    for (let tarefa of liTarefas){
+        let tarefaTexto = tarefa.innerText
+        tarefaTexto = tarefaTexto.replace('Apagar', '').trim()
+        tarefaTexto = tarefaTexto.replace('Concluir', '').trim()
+        listaDeTarefas.push(tarefaTexto)
+    }
+    const tarefasJSON = JSON.stringify(listaDeTarefas)
+    localStorage.setItem('tarefas', tarefasJSON)
+}
+
+function addTarefaSalva(){
+    const tarefas = localStorage.getItem('tarefas')
+    const listaDeTarefas = JSON.parse(tarefas)
+
+    for (let tarefas of listaDeTarefas){
+        criaTarefa(tarefas)
+    }
+}
+addTarefaSalva()
