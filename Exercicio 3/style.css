@@ -90,3 +90,24 @@ p{
 .apagar:hover{
     color:white;
     background: rgb(219, 10, 10);
+}
+
+.concluido{
+    padding:7px;
+    border-radius: 23px;
+    border:solid 1px black;
+    cursor: pointer;
+    background-color:white;
+    transition: linear 0.4s;
+    font-size: 12px;
+}
+.concluido:hover{
+    color:rgb(0, 0, 0);
+    background: rgb(3, 248, 16);
+}
+li{
+    background-color:'green';
+    width:390px;
+    padding:3px;
+    border-radius:15px;
+}

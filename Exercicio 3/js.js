@@ -21,6 +21,14 @@ function criaBotaoApagar(li){
     botaoApagar.setAttribute('title', 'Apagar essa tarefa')
     li.appendChild(botaoApagar)
 }
+function criaBotaoConcluido(li){
+    li.innerHTML += ' '
+    const botaoConcluido = document.createElement('button')
+    botaoConcluido.innerText = 'Concluir'
+    botaoConcluido.setAttribute('class', 'concluido')
+    botaoConcluido.setAttribute('title', 'Concluir essa tarefa')
+    li.appendChild(botaoConcluido)
+}
 
 inputTarefa.addEventListener('keypress', function(e){
     if(e.keyCode === 13){
@@ -35,6 +43,7 @@ function criaTarefa(texto){
     tarefas.appendChild(li)
     limpaInput()
     criaBotaoApagar(li)
+    criaBotaoConcluido(li)
 }
 
 btnEnviar.addEventListener('click', function() {
@@ -48,5 +57,15 @@ document.addEventListener('click', function(e){
     
     if(el.classList.contains('apagar')){
         el.parentElement.remove();
+    }
+})
+
+document.addEventListener('click', function(e){
+    const el = e.target
+    
+    if(el.classList.contains('concluido')){
+        el.innerHTML = 'Concluido'
+        el.style.backgroundColor = 'yellow'
+        el.setAttribute('title', 'Concluido')
     }
 })
