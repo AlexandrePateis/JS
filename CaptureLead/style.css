@@ -19,7 +19,7 @@ body {
 .title-and-p{
     width: 50%;
 }
-.form{
+#form{
     border: solid 1px white;
     width: 660px;
     display: flex;
