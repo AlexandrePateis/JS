@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./images/header.png" alt="" class="img-nav">
+    </header>
+    <section class="main">
+        <div class="lado1">
+            <div class="parte-escrita">
+                <h1 class="t-lado1">[Ebook] Guia do HTML e CSS</h1>
+                <p class="p-lado1">Dê seus primeiros passos com desenvolvimento<br>Web e aprenda a criar uma página do ZERO!</p>
+            </div>
+            <div class="parte-imagem">
+                <img src="./images/logo.png" alt="" class="img-nav">
+            </div>
+        </div>
+
+        <div class="lado2">
+            <div class="formulario-sec">
+                <form action="" id="form">
+                    <h2>Download gratis aqui</h2>
+                    <p>Preencha formlario abaixo para acessar o ebook</p>
+                    <label for="">
+                        <p> Nome*</p><input type="text" name="nome" id="nome">
+                    </label>
+                    <label for="">
+                        <p> Email*</p><input type="email" name="email" id="email">
+                    </label>
+                    <label for="">
+                        <p> Cidade*</p><input type="text" name="cidade" id="cidade">
+                    </label>
+                    <p id="message">Você gostaria de receber news sobre TI, Negócios e Inovação?*<br>
+                        <input type="radio" name="op" id="sim" checked>
+                        <label for="sim">Sim</label><br>
+                        <input type="radio" name="op" id="nao">
+                        <label for="nao">Nao</label>
+                    </p>
+                    <span id="conta"></span><br>
+                    <input type="text" name="" id="pega-resultado" placeholder="Digite aqui o resultado"><br>
+                    <label for="termos"><input type="radio" name="term" id="termos">Li e concordo com os termos de uso</label>
+                    <p class="poli">Ao informar meus dados, eu concordo com a <a href="">Política de Privacidade.</a> </p>
+                    <input type="submit" value="Acessar Ebook Agora !" class="btn">
+            </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="cards">
+            <div class="images">
+                <img src="./images/pc.png" alt="">
+                <h2>Crie uma página Web do ZERO</h2>
+                <p class="p-cards">Sem precisar de conhecimento prévio, aprenda a construir uma página Web exatamente igual a essa!</p>
+            </div>
+            <div class="images">
+                <img src="./images/html.png" alt="">
+                <h2>Dê seus primeiros passos com HTML</h2>
+                <p class="p-cards">Conheça a estrutura de um documento HTML na prática, além de conhecer diversas tags e suas funções!
+                </p>
+            </div>
+            <div class="images">
+                <img src="./images/css.png" alt="">
+                <h2>Dê identidade a sua página com CSS</h2>
+                <p class="p-cards">Ao longo do ebook, aprenda a utilizar o CSS para formatar o seu projeto, proporcionando uma
+                    identidade própria para sua página!</p>
+            </div>
+        </div>
+        <p class="fim">Copyright © TargetTrust e Becode.</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+
+</html>
